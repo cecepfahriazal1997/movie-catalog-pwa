@@ -11,7 +11,7 @@ const Detail = {
     async afterRender() {
         const url = UrlParser.parseActiveUrlWithoutCombiner();
         const movie = await TheMovieDbSource.detailMovie(url.id);
-        console.log(movie);
+        // console.log(movie);
 
         // TODO: tampilkan movie di dalam DOM
     },
