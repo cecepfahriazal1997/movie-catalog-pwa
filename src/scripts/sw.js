@@ -39,8 +39,6 @@ self.addEventListener('install', () => {
 });
 
 self.addEventListener('push', (event) => {
-    console.log('Service Worker: Pushed');
-
     const notificationData = {
         title: 'Push Notification',
         options: {
